@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: jaka
+    relative_path: urdf/jaka.urdf.xacro
+    use_jade_xacro: true
+  SRDF:
+    relative_path: config/jakaUr.srdf
+  CONFIG:
+    author_name: shantengfei
+    author_email: shantengfei@sjtu.edu.cn
+    generated_timestamp: 1507691998

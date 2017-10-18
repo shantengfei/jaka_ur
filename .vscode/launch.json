@@ -23,7 +23,8 @@
 		},
 		{
 			"name": "Python",
-			"type": "python",
+		
+	"type": "python",
 			"request": "launch",
 			"stopOnEntry": true,
 			"pythonPath": "${config:python.pythonPath}",

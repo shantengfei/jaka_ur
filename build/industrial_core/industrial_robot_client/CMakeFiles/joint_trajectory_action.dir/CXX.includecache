@@ -90,6 +90,10 @@ string
 map
 -
 
+/home/shantengfei/catkin_ws/src/industrial_core/industrial_robot_client/src/generic_joint_trajectory_action_node.cpp
+industrial_robot_client/joint_trajectory_action.h
+/home/shantengfei/catkin_ws/src/industrial_core/industrial_robot_client/src/industrial_robot_client/joint_trajectory_action.h
+
 /home/shantengfei/catkin_ws/src/industrial_core/industrial_robot_client/src/joint_trajectory_action.cpp
 industrial_robot_client/joint_trajectory_action.h
 -

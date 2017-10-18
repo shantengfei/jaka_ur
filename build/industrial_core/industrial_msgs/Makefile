@@ -458,48 +458,6 @@ industrial_msgs_genpy/fast:
 .PHONY : industrial_msgs_genpy/fast
 
 # Convenience name for target.
-industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make industrial_core/industrial_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 industrial_core/industrial_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
 	cd /home/shantengfei/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 industrial_core/industrial_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : industrial_core/industrial_msgs/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
@@ -575,9 +533,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... trajectory_msgs_generate_messages_lisp"

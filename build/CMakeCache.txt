@@ -41,6 +41,9 @@ Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 //Boost thread library (release)
 Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
+//No help, variable specified on the command line.
+CATKINWHITELIST_PACKAGES:UNINITIALIZED=jaka
+
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
 
@@ -282,6 +285,42 @@ actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
 actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
 
 //Value Computed by CMake
+arbotix_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_controllers_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_controllers_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix_controllers
+
+//Value Computed by CMake
+arbotix_firmware_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_firmware_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_msgs_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_msgs_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_python_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_python_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_sensors_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
+arbotix_sensors_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/beginner_tutorials
 
 //Value Computed by CMake
@@ -307,6 +346,9 @@ controller_manager_msgs_DIR:PATH=/opt/ros/indigo/share/controller_manager_msgs/c
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for diagnostic_msgs.
+diagnostic_msgs_DIR:PATH=/opt/ros/indigo/share/diagnostic_msgs/cmake
 
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
@@ -342,6 +384,12 @@ geometric_shapes_DIR:PATH=/opt/ros/indigo/share/geometric_shapes/cmake
 geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
 
 //Value Computed by CMake
+grasping_pi_robot_moveit_config_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/grasping_pi_robot_moveit_config
+
+//Value Computed by CMake
+grasping_pi_robot_moveit_config_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/grasping_pi_robot_moveit_config
+
+//Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/gtest
 
 //Dependencies for the target
@@ -368,6 +416,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //The directory containing a CMake configuration file for hardware_interface.
 hardware_interface_DIR:PATH=/opt/ros/indigo/share/hardware_interface/cmake
+
+//The directory containing a CMake configuration file for household_objects_database_msgs.
+household_objects_database_msgs_DIR:PATH=/opt/ros/indigo/share/household_objects_database_msgs/cmake
 
 //The directory containing a CMake configuration file for image_transport.
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
@@ -435,6 +486,30 @@ industrial_utils_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/liburdf.so;gener
 //Value Computed by CMake
 industrial_utils_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/industrial_core/industrial_utils
 
+//Value Computed by CMake
+jaka_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/jaka
+
+//Value Computed by CMake
+jaka_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/jaka
+
+//Value Computed by CMake
+jaka_Ur_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/jaka_Ur
+
+//Value Computed by CMake
+jaka_Ur_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/jaka_Ur
+
+//Value Computed by CMake
+jaka_ur_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/jaka_ur
+
+//Value Computed by CMake
+jaka_ur_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/jaka_ur
+
+//Value Computed by CMake
+jaka_ur_moveit_config_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/jaka_ur_moveit_config
+
+//Value Computed by CMake
+jaka_ur_moveit_config_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/jaka_ur_moveit_config
+
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 
@@ -443,6 +518,9 @@ kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+
+//The directory containing a CMake configuration file for manipulation_msgs.
+manipulation_msgs_DIR:PATH=/opt/ros/indigo/share/manipulation_msgs/cmake
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
@@ -474,6 +552,24 @@ object_recognition_msgs_DIR:PATH=/opt/ros/indigo/share/object_recognition_msgs/c
 //The directory containing a CMake configuration file for octomap_msgs.
 octomap_msgs_DIR:PATH=/opt/ros/indigo/share/octomap_msgs/cmake
 
+//Value Computed by CMake
+pedestal_pi_no_gripper_moveit_config_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/pedestal_pi_no_gripper_moveit_config
+
+//Value Computed by CMake
+pedestal_pi_no_gripper_moveit_config_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/pedestal_pi_no_gripper_moveit_config
+
+//Value Computed by CMake
+pedestal_pi_with_gripper_moveit_config_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/pedestal_pi_with_gripper_moveit_config
+
+//Value Computed by CMake
+pedestal_pi_with_gripper_moveit_config_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/pedestal_pi_with_gripper_moveit_config
+
+//Value Computed by CMake
+pi_robot_moveit_config_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/pi_robot_moveit_config
+
+//Value Computed by CMake
+pi_robot_moveit_config_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/pi_robot_moveit_config
+
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
 
@@ -488,6 +584,138 @@ pr2_msgs_DIR:PATH=pr2_msgs_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for random_numbers.
 random_numbers_DIR:PATH=/opt/ros/indigo/share/random_numbers/cmake
+
+//Value Computed by CMake
+rbx1_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1
+
+//Value Computed by CMake
+rbx1_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1
+
+//Value Computed by CMake
+rbx1_apps_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_apps
+
+//Value Computed by CMake
+rbx1_apps_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_apps
+
+//Value Computed by CMake
+rbx1_bringup_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_bringup
+
+//Value Computed by CMake
+rbx1_bringup_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_bringup
+
+//Value Computed by CMake
+rbx1_description_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_description
+
+//Value Computed by CMake
+rbx1_description_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_description
+
+//Value Computed by CMake
+rbx1_dynamixels_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_dynamixels
+
+//Value Computed by CMake
+rbx1_dynamixels_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_dynamixels
+
+//Value Computed by CMake
+rbx1_nav_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_nav
+
+//Value Computed by CMake
+rbx1_nav_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_nav
+
+//Value Computed by CMake
+rbx1_speech_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_speech
+
+//Value Computed by CMake
+rbx1_speech_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_speech
+
+//Value Computed by CMake
+rbx1_vision_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx1/rbx1_vision
+
+//Value Computed by CMake
+rbx1_vision_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx1/rbx1_vision
+
+//Value Computed by CMake
+rbx2_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2
+
+//Value Computed by CMake
+rbx2_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2
+
+//Value Computed by CMake
+rbx2_ar_tags_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_ar_tags
+
+//Value Computed by CMake
+rbx2_ar_tags_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_ar_tags
+
+//Value Computed by CMake
+rbx2_arm_nav_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_arm_nav
+
+//Value Computed by CMake
+rbx2_arm_nav_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_arm_nav
+
+//Value Computed by CMake
+rbx2_bringup_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_bringup
+
+//Value Computed by CMake
+rbx2_bringup_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_bringup
+
+//Value Computed by CMake
+rbx2_description_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_description
+
+//Value Computed by CMake
+rbx2_description_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_description
+
+//Value Computed by CMake
+rbx2_diagnostics_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_diagnostics
+
+//Value Computed by CMake
+rbx2_diagnostics_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_diagnostics
+
+//Value Computed by CMake
+rbx2_dynamixels_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_dynamixels
+
+//Value Computed by CMake
+rbx2_dynamixels_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_dynamixels
+
+//Value Computed by CMake
+rbx2_gazebo_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_gazebo
+
+//Value Computed by CMake
+rbx2_gazebo_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_gazebo
+
+//Value Computed by CMake
+rbx2_gui_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_gui
+
+//Value Computed by CMake
+rbx2_gui_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_gui
+
+//Value Computed by CMake
+rbx2_msgs_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_msgs
+
+//Value Computed by CMake
+rbx2_msgs_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_msgs
+
+//Value Computed by CMake
+rbx2_nav_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_nav
+
+//Value Computed by CMake
+rbx2_nav_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_nav
+
+//Value Computed by CMake
+rbx2_tasks_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_tasks
+
+//Value Computed by CMake
+rbx2_tasks_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_tasks
+
+//Value Computed by CMake
+rbx2_utils_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_utils
+
+//Value Computed by CMake
+rbx2_utils_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_utils
+
+//Value Computed by CMake
+rbx2_vision_BINARY_DIR:STATIC=/home/shantengfei/catkin_ws/build/rbx2/rbx2_vision
+
+//Value Computed by CMake
+rbx2_vision_SOURCE_DIR:STATIC=/home/shantengfei/catkin_ws/src/rbx2/rbx2_vision
 
 //The directory containing a CMake configuration file for realtime_tools.
 realtime_tools_DIR:PATH=/opt/ros/indigo/share/realtime_tools/cmake
@@ -518,6 +746,9 @@ roslaunch_DIR:PATH=/opt/ros/indigo/share/roslaunch/cmake
 
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rosmsgs.
+rosmsgs_DIR:PATH=rosmsgs_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/indigo/share/rospack/cmake
@@ -560,6 +791,9 @@ srdfdom_DIR:PATH=/opt/ros/indigo/share/srdfdom/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
@@ -800,7 +1034,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=22
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=56
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

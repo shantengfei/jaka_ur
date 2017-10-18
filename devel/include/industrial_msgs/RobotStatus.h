@@ -199,7 +199,7 @@ industrial_msgs/TriState e_stopped\n\
 # for possible motion\n\
 industrial_msgs/TriState drives_powered\n\
 \n\
-# Motion enabled: Ture if robot motion is possible.\n\
+# Motion enabled: True if robot motion is possible.\n\
 industrial_msgs/TriState motion_possible\n\
 \n\
 # Motion status: True if robot is in motion, otherwise false\n\

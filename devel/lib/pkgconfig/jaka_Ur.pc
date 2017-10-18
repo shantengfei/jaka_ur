@@ -1,0 +1,8 @@
+prefix=/home/shantengfei/catkin_ws/devel
+
+Name: jaka_Ur
+Description: Description of jaka_Ur
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shantengfei/catkin_ws/devel/lib 
+Requires: 

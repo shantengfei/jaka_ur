@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<robot name="jakaUr">
+
+ <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 1.5707963267949 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/shantengfei/Documents/urStl/P1.STL"/>
+      </geometry>
+       <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="link_1">
+    <visual>
+      <geometry>
+         <mesh filename="file:///home/shantengfei/Documents/urStl/p2.STL"/>
+      </geometry>
+  <material name="blue"/>
+      <origin rpy="0 1.5707963267949 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+
+
+  <joint name="joint_1" type="revolute">
+   <axis xyz="0 0 1"/>
+    <limit effort="1000" lower="-1.58" upper="1.58" velocity="0.5"/>
+    <origin rpy="0 0 0" xyz="0 0 0.094"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+  </joint>
+
+  <link name="link_2">
+    <visual>
+      <geometry>
+         <mesh filename="file:///home/shantengfei/Documents/urStl/p3.STL"/>
+      </geometry>
+  <material name="blue"/>
+      <origin rpy="1.5707963267949 -1.5707963267949 2.61799387799149" xyz="0 0 0"/> 
+   </visual>
+  </link>
+
+
+  <joint name="joint_2" type="revolute">
+   <axis xyz="0 0 1"/>
+    <limit effort="1000" lower="-1.58" upper="3.58" velocity="0.5"/>
+    <origin rpy="1.5707963267949 0 0" xyz="0 0 0"/>
+    <parent link="link_1"/>
+    <child link="link_2"/>
+  </joint>
+
+
+  <link name="link_3">
+    <visual>
+      <geometry>
+         <mesh filename="file:///home/shantengfei/Documents/urStl/p4.STL"/>
+      </geometry>
+  <material name="blue"/>
+      <origin rpy="0 -1.570796 0" xyz="0.1765 -0.30521 -0.068"/> 
+   </visual>
+  </link>
+
+
+  <joint name="joint_3" type="revolute">
+   <axis xyz="0 0 1"/>
+    <limit effort="1000" lower="-1.58" upper="3.58" velocity="0.5"/>
+    <origin rpy="0 0 0" xyz="0.353 0 0"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+  </joint>
+
+  <link name="link_4">
+    <visual>
+      <geometry>
+         <mesh filename="file:///home/shantengfei/Documents/urStl/p54.STL"/>
+      </geometry>
+  <material name="blue"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/> 
+   </visual>
+  </link>
+
+
+  <joint name="joint_4" type="revolute">
+   <axis xyz="0 0 1"/>
+    <limit effort="1000" lower="-1.58" upper="3.58" velocity="0.5"/>
+    <origin rpy="0 0 0" xyz="0.31 0 0.109"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+  </joint>
+
+
+</robot>

@@ -16,7 +16,7 @@ SET(CMAKE_TARGET_DEFINITIONS
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"simple_message\""
-  "TEST_PORT_BASE=52000"
+  "TEST_PORT_BASE=12000"
   )
 
 # Targets to which this target links.

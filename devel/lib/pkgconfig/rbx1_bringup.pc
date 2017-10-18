@@ -1,0 +1,8 @@
+prefix=/home/shantengfei/catkin_ws/devel
+
+Name: rbx1_bringup
+Description: Description of rbx1_bringup
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/shantengfei/catkin_ws/devel/lib 
+Requires: 
